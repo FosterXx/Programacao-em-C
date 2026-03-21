@@ -119,6 +119,25 @@ int main()
 
 // Exercicio 4:
 
+//     int num;
+
+//     printf("\nDigite um numero: ");
+//     scanf("%d%*c", &num);
+
+//     if(num % 3 == 0 && num % 7 == 0)
+//     {
+//         printf("\nO numero %d e divisivel por 3 e por 7!");
+//     }
+    
+//     else
+//     {
+//         printf("\nO numero %d nao e divisivel por 3 e por 7!");
+//     }
+
+//===========================================================================
+
+// Exercicio 5:
+
 //     char nome[36];
 //     int idade;
 
@@ -155,30 +174,6 @@ int main()
 
 
 //===========================================================================
-// Exercicio 5:
-
-//     int num;
-
-//     printf("\nDigite um numero: ");
-//     scanf("%d%*c", &num);
-
-//     if(num % 3 == 0 && num % 7 == 0)
-//     {
-//         printf("\nO numero %d e divisivel por 3 e por 7!");
-//     }
-    
-//     else
-//     {
-//         printf("\nO numero %d nao e divisivel por 3 e por 7!");
-//     }
-
-
-//===========================================================================
-
-
-
-
-
 
     //Para o programa a espera de um ENTER:
     getchar();
