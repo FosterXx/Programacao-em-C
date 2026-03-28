@@ -76,48 +76,48 @@ int main()
 
 // Extra-4
 
-    float salario, salarioF;
+    // float salario, salarioF;
 
-    printf("\nDigite o salario do funcionario: ");
-    scanf("%f%*c", &salario);
+    // printf("\nDigite o salario do funcionario: ");
+    // scanf("%f%*c", &salario);
    
-    if (salario > 0 && salario <= 1000){
+    // if (salario > 0 && salario <= 1000){
 
-        salarioF = salario * 1.35;
+    //     salarioF = salario * 1.35;
 
-        printf("\nO salario com aumento sera R$ %.2f reais.", salarioF);
-    }
+    //     printf("\nO salario com aumento sera R$ %.2f reais.", salarioF);
+    // }
 
-    else if (salario > 1000 && salario <= 1500){
+    // else if (salario > 1000 && salario <= 1500){
 
-        salarioF = salario * 1.30;
+    //     salarioF = salario * 1.30;
 
-        printf("\nO salario com aumento sera R$ %.2f reais.", salarioF);
-    }
+    //     printf("\nO salario com aumento sera R$ %.2f reais.", salarioF);
+    // }
 
-    else if (salario > 1500 && salario <= 2000){
+    // else if (salario > 1500 && salario <= 2000){
 
-        salarioF = salario * 1.20;
+    //     salarioF = salario * 1.20;
 
-        printf("\nO salario com aumento sera R$ %.2f reais.", salarioF);
-    }
+    //     printf("\nO salario com aumento sera R$ %.2f reais.", salarioF);
+    // }
 
-    else if (salario > 2000 && salario <= 4000){
+    // else if (salario > 2000 && salario <= 4000){
 
-        salarioF = salario * 1.10;
+    //     salarioF = salario * 1.10;
 
-        printf("\nO salario com aumento sera R$ %.2f reais.", salarioF);
-    }
+    //     printf("\nO salario com aumento sera R$ %.2f reais.", salarioF);
+    // }
 
-    else if (salario > 4000){
+    // else if (salario > 4000){
 
-        printf("\nSem aumento!");
-    }
+    //     printf("\nSem aumento!");
+    // }
 
-    else{
+    // else{
 
-        printf("\nERROR");
-    }
+    //     printf("\nERROR");
+    // }
 
 // ===========================================================================
 
@@ -155,7 +155,6 @@ int main()
     // }
 
 // ===========================================================================
-
 
     getchar ();
     return (0);
