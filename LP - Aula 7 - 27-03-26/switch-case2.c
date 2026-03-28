@@ -76,85 +76,85 @@ int main()
 
 // Extra-4
 
-    // float salario, salarioF;
+    float salario, salarioF;
 
-    // printf("\nDigite o salario do funcionario: ");
-    // scanf("%f%*c", &salario);
+    printf("\nDigite o salario do funcionario: ");
+    scanf("%f%*c", &salario);
    
-    // if (salario > 0 && salario <= 1000){
+    if (salario > 0 && salario <= 1000){
 
-    //     salarioF = salario * 1.35;
+        salarioF = salario * 1.35;
 
-    //     printf("\nO salario com aumento sera R$ %.2f reais.", salarioF);
-    //     }
+        printf("\nO salario com aumento sera R$ %.2f reais.", salarioF);
+    }
 
-    // else if (salario > 1000 && salario <= 1500){
+    else if (salario > 1000 && salario <= 1500){
 
-    //     salarioF = salario * 1.30;
+        salarioF = salario * 1.30;
 
-    //     printf("\nO salario com aumento sera R$ %.2f reais.", salarioF);
-    //     }
+        printf("\nO salario com aumento sera R$ %.2f reais.", salarioF);
+    }
 
-    // else if (salario > 1500 && salario <= 2000){
+    else if (salario > 1500 && salario <= 2000){
 
-    //     salarioF = salario * 1.20;
+        salarioF = salario * 1.20;
 
-    //     printf("\nO salario com aumento sera R$ %.2f reais.", salarioF);
-    //     }
-    // else if (salario > 2000 && salario <= 4000){
+        printf("\nO salario com aumento sera R$ %.2f reais.", salarioF);
+    }
 
-    //     salarioF = salario * 1.10;
+    else if (salario > 2000 && salario <= 4000){
 
-    //     printf("\nO salario com aumento sera R$ %.2f reais.", salarioF);
-    //     }
+        salarioF = salario * 1.10;
 
-    // else if (salario > 4000){
+        printf("\nO salario com aumento sera R$ %.2f reais.", salarioF);
+    }
 
-    //     printf("\nSem aumento!");
-    //     }
+    else if (salario > 4000){
 
-    // else{
+        printf("\nSem aumento!");
+    }
 
-    //     printf("\nERROR");
-    // }
+    else{
+
+        printf("\nERROR");
+    }
 
 // ===========================================================================
 
 // Extra-5
 
-    float casaValor, salario, prestacao;
-    int meses;
+    // float casaValor, salario, prestacao;
+    // int meses;
 
-    printf("\nDigite o valor do imovel: ");
-    scanf("%f%*c", &casaValor);
+    // printf("\nDigite o valor do imovel: ");
+    // scanf("%f%*c", &casaValor);
 
-    printf("\nDigite a quantidade de meses a pagar sem juros: ");
-    scanf("%d%*c", &meses);
+    // printf("\nDigite a quantidade de meses a pagar sem juros: ");
+    // scanf("%d%*c", &meses);
 
-    printf("\nDigite seu salario mensal: ");
-    scanf("%f%*c", &salario);
+    // printf("\nDigite seu salario mensal: ");
+    // scanf("%f%*c", &salario);
 
-    if (meses > 0){
+    // if (meses > 0){
         
-        prestacao = casaValor / meses;
+    //     prestacao = casaValor / meses;
 
-        if (prestacao <= (salario * 0.30)){
+    //     if (prestacao <= (salario * 0.30)){
             
-            printf("\nO emprestimo para comprar a casa foi aprovado!\nA prestacao mensal sera de R$ %.2f reais por %d meses.", prestacao, meses);
-        }
-        else{
+    //         printf("\nO emprestimo para comprar a casa foi aprovado!\nA prestacao mensal sera de R$ %.2f reais por %d meses.", prestacao, meses);
+    //     }
+    //     else{
 
-            printf("\nNao foi aprovado!\nPrestacao superior a 30 por cento do salario.");
-        }
+    //         printf("\nNao foi aprovado!\nPrestacao superior a 30 por cento do salario.");
+    //     }
 
-    }
-    else{
+    // }
+    // else{
         
-        printf("\nNecessário ser um numero maior que 0!");
-    }
+    //     printf("\nNecessário ser um numero maior que 0!");
+    // }
 
-    
-
+// ===========================================================================
 
 
     getchar ();
