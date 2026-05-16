@@ -1,0 +1,1 @@
+//8- Faça um programa que preencha um vetor com dez numeros inteiros, calcule e mostre os numeros superiores a ciquenta e suas respectivas posições. O programa deverá monstrar mensagem se não existir nenhum número nessa condição.

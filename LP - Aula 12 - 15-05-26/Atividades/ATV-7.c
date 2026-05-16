@@ -1,0 +1,1 @@
+//7- Faça um programa que preencha dois vetores com cinco elementos numéricos cada e, depois, ordene-os de maneira crescente. Deverá ser gerado um terceiro vetor com dez posições que deverá ser composto pela junção dos elementos dos vetores anteriores, também ordenando de maneira crescente.
